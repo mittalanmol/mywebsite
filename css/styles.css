@@ -1,0 +1,158 @@
+
+
+body{
+    color: #40514E; /* It will change the colour of written content of body to like grey*/
+    margin: 0;                  /* margin implies for all sides*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin:50px auto 0px; /*or 50px auto 0 auto*/ 
+    
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;  /* By this we can remove default bold type of heading*/
+                        /* can also give here as per convenience  padding-bottom: 10px;*/
+}
+
+h3{
+    color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto 100px auto; 
+}
+
+
+
+.first-container{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+ .top-cloud{ 
+     position:absolute;
+     right: 300px;
+     top: 40px;
+ }
+
+ .bottom-cloud{
+     position: absolute;
+     left: 300px;
+     bottom: 300px;
+ }
+
+ .mountain{
+     position: relative;
+     left:200px;
+ }
+
+ .second-container{
+     margin: 100px 0;
+ }
+
+.profile-img{
+    width: 15%;
+    height: 15%;
+}
+
+.coding-img{
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-right: 30px; /* As image if floating towards left with text so for text separation we give margin from right side */
+}
+
+.development-img{
+    width: 15%;
+    height: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro{
+    width: 30%;      /* By this the single straight intro line split in lines.*/
+    margin:auto;      /* So we have to use margin here to give space from top,right,bottom,left*/
+}
+
+.skill-section{
+     width: 50%;
+     margin: 100px auto; /* By this auto it comes at center from left nd right and 100px space from above nd below*/
+     text-align: left;  /*By this the content inside skill-section aligned to left of center version (as we made them center by auto)*/
+}
+
+.contact-message{
+    width: 45%;
+    margin: 50px auto;
+}
+
+.third-container{
+    background-color: #66BFBF;
+    padding: 30px 0;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 20px 0;
+}
+
+
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  
